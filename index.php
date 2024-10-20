@@ -1,3 +1,9 @@
+<!--
+Author: HUYKAISER.COM
+Product Name: Source Chúc Mừng Ngày Quốc Tế Phụ Nữ 20/11 
+Notes: Sản phẩm được thiết kế by Huykaiser
+Admin: NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
+-->
 <!DOCTYPE html>
 <html lang="vi">
   <head>
@@ -112,11 +118,15 @@
         <?php endfor; ?>
       </div>
       <?php
+       //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
         function xsshks($data) {
+           //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
           return htmlspecialchars(trim($data), ENT_QUOTES, 'UTF-8');
+          //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
         }
-
+        //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
         $name = isset($_POST['name']) ? xsshks($_POST['name']) : '';
+        //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
         $mess = [
           "Chúc mừng ngày 20/10! Mong rằng $name sẽ luôn rạng ngời, tươi tắn và tràn đầy niềm vui.",
           "$name ơi, chúc bạn có một ngày 20/10 thật hạnh phúc, được yêu thương và quan tâm hết mực!",
@@ -127,15 +137,20 @@
           "Mong rằng $name sẽ luôn được yêu thương, hạnh phúc và thành công trong mọi điều bạn làm. Chúc mừng ngày 20/10!",
           "Ngày 20/10 này, $name ơi, chúc bạn một ngày tràn đầy nụ cười và hạnh phúc như những ngôi sao sáng trên bầu trời!"
         ];
-
+ //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
         $rdmess = $mess[array_rand($mess)];
-
+ //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
         if ($name) {
+          //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
           echo "<h1>Chúc Mừng $name!</h1>";
+          //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
           echo "<p>$rdmess</p>";
+          //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
           echo "<p>Hãy luôn tươi cười và tận hưởng ngày tuyệt vời này! ❤️</p>";
           echo "<div class='heart'>❤️</div>";
+          //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
           echo "<p>Lời Chúc Từ HuyKaiser Đến Bé Iu $name </p>";
+          //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
         } else {
           echo "<h1>Nhập tên Vô iiikk</h1>";
           echo '<form method="POST" id="wishForm">
@@ -144,6 +159,7 @@
                   <button type="submit" id="submitBtn" class="glow">Nhận lời chúc</button>
                 </form>';
         }
+         //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
       ?>
     </div>
 
