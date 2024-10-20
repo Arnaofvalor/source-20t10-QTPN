@@ -150,7 +150,7 @@ Admin: NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyK
           echo "<p>Hãy luôn tươi cười và tận hưởng ngày tuyệt vời này! ❤️</p>";
           echo "<div class='heart'>❤️</div>";
           //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
-          echo "<p>Lời Chúc Từ HuyKaiser Đến Bé Iu $name </p>";
+          echo "<p>Lời Chúc Từ Minh Đức Gửi Đến $name </p>";
           //CODE BY HUYKAISER | ADMIN : NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
         } else {
           echo "<h1>Nhập tên Vô iiikk</h1>";
