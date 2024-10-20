@@ -5,6 +5,7 @@ Notes: Sản phẩm được thiết kế by Huykaiser
 Admin: NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyKaiser.profile | TELEGRAM : @huykaiserOwO
 -->
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
@@ -52,7 +53,7 @@ Admin: NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyK
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
       }
 
-      .hksrdxk {
+      .snowflake {
         position: fixed;
         top: -10%;
         z-index: 9999;
@@ -61,35 +62,35 @@ Admin: NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyK
         -ms-user-select: none;
         user-select: none;
         cursor: default;
-        -webkit-animation-name: hksrdx-fall, hksrdx-shake;
+        -webkit-animation-name: snowflakes-fall, snowflakes-shake;
         -webkit-animation-duration: 10s, 3s;
         -webkit-animation-timing-function: linear, ease-in-out;
         -webkit-animation-iteration-count: infinite, infinite;
         -webkit-animation-play-state: running, running;
-        animation-name: hksrdx-fall, hksrdx-shake;
+        animation-name: snowflakes-fall, snowflakes-shake;
         animation-duration: 10s, 3s;
         animation-timing-function: linear, ease-in-out;
         animation-iteration-count: infinite, infinite;
         animation-play-state: running, running;
       }
 
-      .hksrdxk:nth-of-type(0) { left: 1%; animation-delay: 0s, 0s; }
-      .hksrdxk:nth-of-type(1) { left: 10%; animation-delay: 1s, 1s; }
-      .hksrdxk:nth-of-type(2) { left: 20%; animation-delay: 6s, 0.5s; }
-      .hksrdxk:nth-of-type(3) { left: 30%; animation-delay: 4s, 2s; }
-      .hksrdxk:nth-of-type(4) { left: 40%; animation-delay: 2s, 2s; }
-      .hksrdxk:nth-of-type(5) { left: 50%; animation-delay: 8s, 3s; }
-      .hksrdxk:nth-of-type(6) { left: 60%; animation-delay: 6s, 2s; }
-      .hksrdxk:nth-of-type(7) { left: 70%; animation-delay: 2.5s, 1s; }
-      .hksrdxk:nth-of-type(8) { left: 80%; animation-delay: 1s, 0s; }
-      .hksrdxk:nth-of-type(9) { left: 90%; animation-delay: 3s, 1.5s; }
+      .snowflake:nth-of-type(0) { left: 1%; animation-delay: 0s, 0s; }
+      .snowflake:nth-of-type(1) { left: 10%; animation-delay: 1s, 1s; }
+      .snowflake:nth-of-type(2) { left: 20%; animation-delay: 6s, 0.5s; }
+      .snowflake:nth-of-type(3) { left: 30%; animation-delay: 4s, 2s; }
+      .snowflake:nth-of-type(4) { left: 40%; animation-delay: 2s, 2s; }
+      .snowflake:nth-of-type(5) { left: 50%; animation-delay: 8s, 3s; }
+      .snowflake:nth-of-type(6) { left: 60%; animation-delay: 6s, 2s; }
+      .snowflake:nth-of-type(7) { left: 70%; animation-delay: 2.5s, 1s; }
+      .snowflake:nth-of-type(8) { left: 80%; animation-delay: 1s, 0s; }
+      .snowflake:nth-of-type(9) { left: 90%; animation-delay: 3s, 1.5s; }
 
-      @keyframes hksrdx-fall {
+      @keyframes snowflakes-fall {
         0% { top: -10%; }
         100% { top: 100%; }
       }
 
-      @keyframes hksrdx-shake {
+      @keyframes snowflakes-shake {
         0% { transform: translateX(0px); }
         50% { transform: translateX(80px); }
         100% { transform: translateX(0px); }
@@ -98,21 +99,21 @@ Admin: NGUYỄN VĂN HUY ( HUYKAISER) | FACEBOOK : https://www.facebook.com/HuyK
   </head>
   <body>
 
-  <div class="hksrdx" aria-hidden="true">
-  <div class="hksrdxk" style="font-size: 30px;">🌸</div>
-  <div class="hksrdxk">🌼</div>
-  <div class="hksrdxk" style="font-size: 40px;">🌻</div>
-  <div class="hksrdxk">🌷</div>
-  <div class="hksrdxk" style="font-size: 30px;">💐</div>
-  <div class="hksrdxk" style="font-size: 22px;">🌹</div>
-  <div class="hksrdxk" style="font-size: 50px;">🌻</div>
-  <div class="hksrdxk" style="font-size: 20px;">🌸</div>
-  <div class="hksrdxk" style="font-size: 70px;">🌷</div>
-  <div class="hksrdxk" style="font-size: 20px;">🌼</div>
+  <div class="snowflakes" aria-hidden="true">
+  <div class="snowflake" style="font-size: 30px;">🌸</div>
+  <div class="snowflake">🌼</div>
+  <div class="snowflake" style="font-size: 40px;">🌻</div>
+  <div class="snowflake">🌷</div>
+  <div class="snowflake" style="font-size: 30px;">💐</div>
+  <div class="snowflake" style="font-size: 22px;">🌹</div>
+  <div class="snowflake" style="font-size: 50px;">🌻</div>
+  <div class="snowflake" style="font-size: 20px;">🌸</div>
+  <div class="snowflake" style="font-size: 70px;">🌷</div>
+  <div class="snowflake" style="font-size: 20px;">🌼</div>
 </div>
     <div class="container">
-      <div id="hksflx"></div>
-      <div class="hkstlx">
+      <div id="flowers"></div>
+      <div class="sparkles">
         <?php for ($i = 0; $i < 70; $i++): ?>
           <div style="top: <?= rand(0, 100); ?>%; left: <?= rand(0, 100); ?>%; animation-delay: <?= rand(0, 2000) / 1000; ?>s;"></div>
         <?php endfor; ?>
